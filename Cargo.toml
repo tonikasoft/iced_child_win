@@ -1,0 +1,13 @@
+[package]
+name = "iced_child_win"
+version = "0.1.0"
+authors = ["Ales Tsurko <ales.tsurko@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cocoa = "0.20"
+env_logger = "0.7"
+iced_wgpu = { git = "https://github.com/hecrj/iced.git" }
+iced_winit = { git = "https://github.com/hecrj/iced.git" }
